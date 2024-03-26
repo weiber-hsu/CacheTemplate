@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
+﻿using MemCache.Service;
+using Microsoft.AspNetCore.Mvc;
 
 //may add white list for security
 namespace MemCache.Controller;
@@ -8,33 +8,16 @@ namespace MemCache.Controller;
 [Route("api")]
 public class CacheController : ControllerBase
 {
-    [HttpGet("register")]
+    private ICacheService _memCacheService;
+
+    public CacheController(ICacheService memCacheService)
+    {
+        _memCacheService = memCacheService;
+    }
+
+    [HttpGet("MemGet")]
     public async Task<IActionResult> Get()
     {
-        var memCacheService = new MemCacheService();
         return Ok("123");
-    }
-}
-
-public class MemCacheService : IMemoryCache
-{
-    public void Dispose()
-    {
-        throw new NotImplementedException();
-    }
-
-    public bool TryGetValue(object key, out object? value)
-    {
-        throw new NotImplementedException();
-    }
-
-    public ICacheEntry CreateEntry(object key)
-    {
-        throw new NotImplementedException();
-    }
-
-    public void Remove(object key)
-    {
-        throw new NotImplementedException();
     }
 }

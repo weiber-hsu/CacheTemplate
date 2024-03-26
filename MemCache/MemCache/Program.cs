@@ -1,9 +1,12 @@
 using MemCache.Controller;
+using MemCache.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers().AddApplicationPart(typeof(CacheController).Assembly);
+builder.Services.AddTransient<ICacheService, MemCacheService>();
 var app = builder.Build();
 app.UseRouting();
+
 
 app.UseEndpoints(endpoints =>
 {
