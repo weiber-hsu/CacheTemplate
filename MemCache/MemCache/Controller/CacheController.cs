@@ -18,6 +18,8 @@ public class CacheController : ControllerBase
     [HttpGet("MemGet")]
     public async Task<IActionResult> Get()
     {
-        return Ok("123");
+        var s = "6666";
+        await _memCacheService.AddAsync("key",s, TimeSpan.FromSeconds(10));
+        return Ok(await _memCacheService.GetAsync<string>("key"));
     }
 }

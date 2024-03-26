@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MemCache")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+523e1f4b3f3255297cb9c87d491afb0b28d76ab2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9eab045c20a541ad443f280d164096912a0d681e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MemCache")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MemCache")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
