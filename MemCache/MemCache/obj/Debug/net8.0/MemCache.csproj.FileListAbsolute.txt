@@ -34,3 +34,4 @@ C:\Users\weber.hsu53\Desktop\CacheSDK\MemCache\MemCache\obj\Debug\net8.0\refint\
 C:\Users\weber.hsu53\Desktop\CacheSDK\MemCache\MemCache\obj\Debug\net8.0\MemCache.pdb
 C:\Users\weber.hsu53\Desktop\CacheSDK\MemCache\MemCache\obj\Debug\net8.0\MemCache.genruntimeconfig.cache
 C:\Users\weber.hsu53\Desktop\CacheSDK\MemCache\MemCache\obj\Debug\net8.0\ref\MemCache.dll
+C:\Users\weber.hsu53\Desktop\CacheSDK\MemCache\MemCache\obj\Debug\net8.0\MemCache.sourcelink.json
