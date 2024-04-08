@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="StackExchange.Redis" Version="2.7.33" />
+      <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="10.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+      <Content Include="bin\Debug\net8.0\appsettings.json" />
+      <Content Include="bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll" />
+      <Content Include="bin\Debug\net8.0\RedisCache.deps.json" />
+      <Content Include="bin\Debug\net8.0\RedisCache.dll" />
+      <Content Include="bin\Debug\net8.0\RedisCache.exe" />
+      <Content Include="bin\Debug\net8.0\RedisCache.pdb" />
+      <Content Include="bin\Debug\net8.0\RedisCache.runtimeconfig.json" />
+      <Content Include="bin\Debug\net8.0\StackExchange.Redis.dll" />
+      <Content Include="bin\Debug\net8.0\StackExchange.Redis.Extensions.Core.dll" />
+      <Content Include="obj\Debug\net8.0\apphost.exe" />
+      <Content Include="obj\Debug\net8.0\RedisCache.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.assets.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.csproj.CopyComplete" />
+      <Content Include="obj\Debug\net8.0\RedisCache.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net8.0\RedisCache.dll" />
+      <Content Include="obj\Debug\net8.0\RedisCache.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net8.0\RedisCache.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net8.0\RedisCache.pdb" />
+      <Content Include="obj\Debug\net8.0\RedisCache.sourcelink.json" />
+      <Content Include="obj\Debug\net8.0\refint\RedisCache.dll" />
+      <Content Include="obj\Debug\net8.0\ref\RedisCache.dll" />
+      <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.build.RedisCache.props" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.RedisCache.props" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.RedisCache.props" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+      <Content Include="obj\project.packagespec.json" />
+      <Content Include="obj\RedisCache.csproj.nuget.dgspec.json" />
+      <Content Include="obj\RedisCache.csproj.nuget.g.props" />
+      <Content Include="obj\RedisCache.csproj.nuget.g.targets" />
+      <Content Include="obj\rider.project.model.nuget.info" />
+      <Content Include="obj\rider.project.restore.info" />
+      <Content Remove="bin\**" />
+      <Content Remove="obj\**" />
+      <Content Remove="Properties\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net8.0\RedisCache.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net8.0\RedisCache.GlobalUsings.g.cs" />
+      <Compile Remove="bin\**" />
+      <Compile Remove="obj\**" />
+      <Compile Remove="Properties\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="bin\**" />
+      <EmbeddedResource Remove="obj\**" />
+      <EmbeddedResource Remove="Properties\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="bin\**" />
+      <None Remove="obj\**" />
+      <None Remove="Properties\**" />
+    </ItemGroup>
+
+</Project>
